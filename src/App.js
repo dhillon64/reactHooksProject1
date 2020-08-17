@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Accordion } from "./Components/Accordion";
 import Search from "./Components/Search";
 import Dropdown from "./Components/Dropdown";
+import Translate from "./Components/Translate";
 
 const items = [
   {
@@ -50,6 +51,7 @@ const App = () => {
           options={options}
         />
       ) : null}
+      <Translate />
     </div>
   );
 };

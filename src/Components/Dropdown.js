@@ -63,7 +63,6 @@ const Dropdown = ({ options, selected, onSelectedChange, label }) => {
         </div>
       </div>
       <br />
-      {selectedColorText()}
     </div>
   );
 };
